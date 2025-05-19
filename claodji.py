@@ -54,7 +54,7 @@ for i, emoji in enumerate(emoji_list):
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    if st.button("🧠 Créer mot de passe"):
+    if st.button("Créer mot de passe"):
         if not st.session_state['selected_emojis']:
             st.error("⚠️ Mot de passe vide, choisis au moins un emoji !")
         else:
